@@ -1,0 +1,16 @@
+{
+    "name": "webshop",
+    "devDependencies": {
+        "http-server": "^0.11.1",
+        "microbundle": "^0.9.0"
+    },
+    "scripts": {
+        "start": "http-server page --silent & $npm_execpath run watch",
+        "watch": "microbundle watch --format umd --entry page/src/index.js --output page/dist/bundle.js",
+        "build": "microbundle --name wrapLines --format es,umd --sourcemap false",
+        "prepare": "$npm_execpath run build"
+    },
+    "files": [
+        "dist"
+    ]
+}
