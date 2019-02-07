@@ -12,5 +12,8 @@
     },
     "files": [
         "dist"
-    ]
+    ],
+    "dependencies": {
+        "textsplitter": "^1.0.5"
+    }
 }
