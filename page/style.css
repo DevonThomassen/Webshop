@@ -120,26 +120,15 @@ header {
 
 .grid div {
     height: 400px;
-    width: 25%;
+    width: 100%;
     background-size: cover;
     background-position: center center;
     cursor: pointer;
     overflow: hidden;
     transition: transform .4s; 
     position: relative;
-}
-
-.grid div div {
     background-image: url(https://cdn.dribbble.com/users/1889463/screenshots/4068564/02.jpg);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.grid div:hover > div {
-    transform: scale(1.05)
+    margin: 0 50px;
 }
 
 #menu {
@@ -149,9 +138,9 @@ header {
     top: 0;
     left: 0;
     background: #fff;
-    display: none;
+    opacity: 0;
 }
 
 .expand #menu {
-    display: block;
+    opacity: 1;
 }

@@ -1,4 +1,6 @@
+# Devtools
 **/.idea
+**/.vscode
 
 # Node modules
 **/node_modules/
