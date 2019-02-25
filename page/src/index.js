@@ -8,12 +8,14 @@ nav.addEventListener("click", function(e) {
     if (expand) {
 
         element.className += " expand";
+        element.style.overflow = "hidden";
 
         expand = false;
 
     } else {
 
         element.className = "";
+        element.style.overflow = "visible";
 
         expand = true;
     }
