@@ -29,14 +29,34 @@ cart.addEventListener("click", function(e) {
     e.preventDefault;
     if (expand2) {
 
-        element.className += " cart";
+        element.className += " cart_expand";
         element.style.overflow = "hidden";
 
         expand2 = false;
 
     } else {
 
-        element.classList.remove("cart");
+        element.classList.remove("cart_expand");
+        element.style.overflow = "visible";
+
+        expand2 = true;
+    }
+})
+
+var closingCart = document.querySelectorAll(".cart")[1];
+
+closingCart.addEventListener("click", function(e) {
+    e.preventDefault;
+    if (expand2) {
+
+        element.className += " cart_expand";
+        element.style.overflow = "hidden";
+
+        expand2 = false;
+
+    } else {
+
+        element.classList.remove("cart_expand");
         element.style.overflow = "visible";
 
         expand2 = true;
