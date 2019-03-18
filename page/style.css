@@ -55,6 +55,12 @@ header {
 
 .site_title {
     left: 0;
+    transform: translateY(-50%);
+    display: block;
+}
+
+.site_title img {
+    width: 100px;
 }
 
 .menu_container {
