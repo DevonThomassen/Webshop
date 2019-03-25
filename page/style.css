@@ -85,6 +85,7 @@ header {
     font-size: 30px;
     margin: 0 auto;
     width: fit-content;
+    text-align: center;
 }
 
 .grey {
@@ -94,6 +95,7 @@ header {
     letter-spacing: 6px;
     font-size: 14px;
     color: #cdcdcd;
+    text-align: center;
 }
 
 .grey span {
