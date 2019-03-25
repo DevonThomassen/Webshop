@@ -60,7 +60,7 @@ header {
 }
 
 .site_title img {
-    width: 100px;
+    width: 200px;
 }
 
 .menu_container {
@@ -136,6 +136,15 @@ header {
     background-image: url(https://cdn.dribbble.com/users/1889463/screenshots/4068564/02.jpg);
     margin: 0 50px;
 }
+/* CONTACT PAGE */
+#contact_text{
+    font-family: futura-pt;
+    font-size: 16px;
+}
+#contact_h{
+    color:#FFA5A5;
+}
+/* END OF CONTACT PAGE */
 
 #menu {
     width: 100%;
