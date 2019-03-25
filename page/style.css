@@ -154,10 +154,12 @@ header {
     left: 0;
     background: #fff;
     opacity: 0;
+    visibility: hidden;
 }
 
 .expand #menu {
     opacity: 1;
+    visibility: visible;
 }
 
 #contact_text {
@@ -179,6 +181,7 @@ header {
     resize: none;
     width: 100%;
     margin: 0 0 50px 0;
+    padding: 5px 0;
 }
 
 .boooy table {
