@@ -159,3 +159,37 @@ header {
 .expand #menu {
     opacity: 1;
 }
+
+#contact_text {
+    position: absolute;
+    top: 50%;
+    left: calc(25% + 25px);
+    transform: translateY(-50%);
+    display: flex;
+}
+
+.bruhhhh {
+    margin-right: 100px;
+}
+
+.boooy table input, .boooy table textarea {
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+    resize: none;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.boooy table {
+    width: 300px;
+}
+
+.boooy table button {
+    width: 100%;
+    display: block;
+    background: black;
+    border: none;
+    color: white;
+    padding: 18px;
+}
